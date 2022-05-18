@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"declaration": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "ES2017",
+		"sourceMap": true,
+		"inlineSources": true,
+		"outDir": "dist",
+		"rootDir": "src"
+	},
+	"include": [
+		"src/**/*.ts"
+	]
+}

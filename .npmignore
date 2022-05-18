@@ -1,0 +1,6 @@
+/dist/**/*.js.map
+/.github
+
+.gitattributes
+.prettierrc.json
+yarn.lock

@@ -1,0 +1,32 @@
+{
+	"name": "@pire/core",
+	"version": "0.1.8",
+	"author": "Samuel Larsson",
+	"homepage": "https://github.com/StelFoog/pire-core/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StelFoog/pire-core.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest test/src",
+		"test:build": "jest test/dist --coverage false"
+	},
+	"main": "./dist/index.js",
+	"keywords": [
+		"api",
+		"routing",
+		"pire"
+	],
+	"devDependencies": {
+		"@types/jest": "^27.5.1",
+		"@types/node": "^17.0.33",
+		"jest": "^28.1.0",
+		"ts-jest": "^28.0.2",
+		"typescript": "^4.6.4"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
